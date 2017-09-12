@@ -17,7 +17,7 @@ function Assert() {
 
   function isEqual(assertion, secondAssertion) {
     if (assertion !== secondAssertion) {
-      throw new Error("Expected: " + assertion + " to equal" + secondAssertion);
+      throw new Error("Expected: " + assertion + "to equal" + secondAssertion);
     } else {
     document.write("Test Passed")
     }

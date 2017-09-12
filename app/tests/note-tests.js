@@ -1,5 +1,5 @@
 (function(exports) {
-  function noteModelTests() {
+  function noteTests() {
     var assert = new Assert();
     var note = new Note("Hello World!");
 
@@ -8,11 +8,11 @@
   };
 
   function testNoteReturnsText() {
-    assert.isEqual(note.getText(), "Hello World!")
+    assert.isEqual(note.getText(), "Hello World!");
   };
 
   testNoteHasText();
   testNoteReturnsText();
   }
- noteModelTests();
+ noteTests();
 })(this);
