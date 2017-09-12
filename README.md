@@ -1,13 +1,9 @@
-# Writing a frontend, single page app using only pure JavaScript (further JS)
+# Further Javascript
 
 Mid week task assigned by [Kay Lovelace](https://github.com/neoeno), [Makers Academy](http://www.makersacademy.com/).
 
-## The Task
-
 Write a frontend, single page app using only pure JavaScript.
-
 To see the full task spec, navigate to `docs/task.md`.
-
 
 ## Statement
 
