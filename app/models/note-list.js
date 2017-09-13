@@ -6,7 +6,7 @@
   };
 
   NoteList.prototype.storeNotes = function() {
-    this.list.push(this.note.getText);
+    this.list.push(this.note.getText());
   };
 
   NoteList.prototype.createNote = function(text) {

@@ -11,7 +11,7 @@
   function testReturnsAllNotes() {
     noteList.createNote("Hello World!");
     noteList.storeNotes();
-    assert.isEqual(noteList.getList, ["Hello World!"]);
+    assert.isEqual(noteList.getList(), noteList.list);
   };
 
   testCreatesNote();
