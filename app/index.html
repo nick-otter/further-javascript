@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  Models -->
+    <script src="./models/note.js"></script>
+    <script src="./models/note-list.js"></script>
+    <script src="./models/note-list-view.js"></script>
+
+    <!--  Views -->
+    <script src="./views/test-outputter.js"></script>
+    <script src="./views/note-controller.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1 id="app">
+        Hello
+      </h1>
+    </div>
+        <script>
+        var noteList = new NoteList();
+        noteList.createNote("Favourite drink: seltzer");
+        noteList.storeNotes();
+
+        var noteController = new NoteController(noteList);
+        noteController.printElement();
+        noteController.changeElement();
+        </script>
+</body>
+</html>

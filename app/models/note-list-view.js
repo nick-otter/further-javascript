@@ -1,7 +1,7 @@
 (function(exports) {
 
-  function NoteListView(listObject) {
-    this.noteList = new NoteList();
+  function NoteListView(notelist) {
+    this.noteList = notelist;
   };
 
   NoteListView.prototype.getListHTML = function() {
